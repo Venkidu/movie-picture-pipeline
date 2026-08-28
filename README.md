@@ -411,7 +411,3 @@ kustomize build | kubectl apply -f -
 
 [License](LICENSE.md)
 
-cd /workspace
-git add .github/workflows/frontend-ci.yaml .github/workflows/backend-ci.yaml
-git commit -m "Add CI workflows"
-git push
